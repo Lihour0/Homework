@@ -5,9 +5,9 @@
 //Constant Total Subject to 6 As Array start from 0
 #define TOTAL_SUBJECT 6
 
-//Calculate Average Score
+//Function for Calculating Average Score
 float AverageScore(float TotalScore){
-    float RES;
+    float RES = 0;
     //All Total Subject
     int totalSubject = 5;
     RES = TotalScore / totalSubject;
@@ -17,7 +17,7 @@ float AverageScore(float TotalScore){
 
 int main() {
 
-    float TotalScore;
+    float TotalScore = 0;
     float UserInput[TOTAL_SUBJECT];
 
    
