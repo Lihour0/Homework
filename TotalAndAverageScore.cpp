@@ -22,9 +22,9 @@ int main() {
 
    
     //We can Use Either Array Or Map to Store Subject
-    //Use Array to store Subjects
+    //Using Array to store Subjects
     //std::string Subjects[TOTAL_SUBJECT] = { "CPP", "ACCESS", "PHP", "NETWORK", "WINDOWS" };
-    //Use Map to store Subjects
+    //Using Map to store Subjects
     std::map<int, std::string> Subjects {{1, "CPP"}, {2, "ACCESS"}, {3, "PHP"}, {4, "NETWORK"}, {5, "WINDOWS"}};
 
     for(int i = 1; i < TOTAL_SUBJECT; i++){

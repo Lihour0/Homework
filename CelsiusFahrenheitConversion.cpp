@@ -25,7 +25,8 @@ int main(){
     int option = 0;
     
 
-    std::cout << "Type 1 for Converting Fahrenheit to Celsius or 2 for Converting Celsius to Fahrenheit: ";
+    std::cout << "Options:\n 1.Fahrenheit To Celsius\n 2.Celsius To Fahrenheit\n ";
+    std::cout << "Choose 1 or 2: ";
     std::cin >> option;
 
 //Switch Case Between Celsius to Fahrenheit or Fahrenheit to Celsius
