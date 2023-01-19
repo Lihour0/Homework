@@ -4,11 +4,10 @@
 
 
 //Function for calculating Area of Circle
-float AreaOfCircle(float radius){
+float Area(float radius){
     float RES = 0;
     //Using predefine PI 
     RES = M_PI * pow<float, float>(radius, 2);
-    std::cout << "Area of the Circle is: " << RES;
     return RES;
 }
 
@@ -22,6 +21,7 @@ int main(){
 
     std::cin >> radius;
 
-    AreaOfCircle(radius);
+    float AreaOfCircle = Area(radius);
 
+    std::cout << "Area of the Circle is: " << AreaOfCircle;
 }

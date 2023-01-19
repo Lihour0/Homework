@@ -5,15 +5,17 @@
 //Constant Total Subject to 6 As Array start from 0
 #define TOTAL_SUBJECT 6
 
+//Storing Result
+float RES = 0;
+
 //Function for Calculating Average Score
 float AverageScore(float TotalScore){
-    float RES = 0;
     //All Total Subject
     int totalSubject = 5;
     RES = TotalScore / totalSubject;
-    std::cout<< "Average Score: "<<RES;
     return RES;
 }
+
 
 int main() {
 
@@ -34,6 +36,9 @@ int main() {
         //Calculate Total Score of User Input
         TotalScore += UserInput[i];
     }
+
+    float AvgScore = AverageScore(TotalScore);
+
     std::cout<< "Total Score: " << TotalScore << "\n";
-    AverageScore(TotalScore);
+    std::cout<< "Average Score: "<< AvgScore;
 }

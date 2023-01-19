@@ -6,7 +6,6 @@
 float Dollar2Riel(int Riel){
     float Conversion = 0;
     Conversion = Riel * Dollar2RielRate;
-    std::cout << "This is your Riel to Dollar Conversion: " <<Conversion << "$";
     return Conversion;
 }
 
@@ -17,5 +16,7 @@ int main(){
     std::cout << "Enter Amount of Riel you want to exchange: ";
     std::cin >> Riel;
 
-    Dollar2Riel(Riel);
+    float Dolla2Riel = Dollar2Riel(Riel);
+
+    std::cout << "This is your Riel to Dollar Conversion: " << Dolla2Riel << "$";
 }
